@@ -17,8 +17,14 @@ Usage:
 `python cavatica_api_download.py <parent_local_folder_path> <new_results_folder_name> <Project_name_on_Cavatica> <Batch_Task_ID>`
 
 **Args explained:**
+
 Project_name_on_Cavatica and Batch_Task_ID can both be found in the url of any batch task job on Cavatica
+
 Project_name_on_Cavatica: The project name is the project id and project creater name. Appears in URL after `https://cavatica.sbgenomics.com/u/` and before `/tasks/`
+
 Batch_Task_ID: The batch task id is the alphanumeric id in the url following `/tasks/`. The id ends at the next backslash "/"
 
-**Example:** python cavatica_api_download.py /PATH/TO/EXISTING/PARENT/DIRECTORY/FOR/DOWNLOADs/ NEW_DOWNLOAD_TEST rlfullem/excerpt-processing 6d288ce1-10ed-4f0d-ac01-e96982bc241f
+![Image of where to retrieve download ids from URL on Cavatica](https://github.com/rob-fullem/excerpt_on_cavatica/blob/main/sys_vars_image.svg)
+
+**Example:** 
+python cavatica_api_download.py /PATH/TO/EXISTING/PARENT/DIRECTORY/FOR/DOWNLOADs/ NEW_DOWNLOAD_TEST rlfullem/excerpt-processing 6d288ce1-10ed-4f0d-ac01-e96982bc241f
