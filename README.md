@@ -27,4 +27,4 @@ Batch_Task_ID: The batch task id is the alphanumeric id in the url following `/t
 ![Image of where to retrieve download ids from URL on Cavatica](https://github.com/rob-fullem/excerpt_on_cavatica/blob/main/sys_vars_image.svg)
 
 **Example:** 
-python cavatica_api_download.py /PATH/TO/EXISTING/PARENT/DIRECTORY/FOR/DOWNLOADs/ NEW_DOWNLOAD_TEST rlfullem/excerpt-processing 6d288ce1-10ed-4f0d-ac01-e96982bc241f
+python cavatica_api_download.py /PATH/TO/EXISTING/PARENT/DIRECTORY/FOR/DOWNLOADs/ NEW_DOWNLOAD_TEST rlfullem/exrna-otherbiofluids a046934a-80ba-472c-ae13-7592b30d5541
