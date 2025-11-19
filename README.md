@@ -22,10 +22,17 @@ Cavatica uses the Seven Bridges API to enable programmatic download of files to 
 
 **REQUIRED**: Must install python SB API libraries and enable authentication and configuration file. Learn more at https://sevenbridges-python.readthedocs.io/en/latest/quickstart.html
 
-**BEFORE DOWNLOADING BULK SETS OF FILES**: It is highly recommended you delete any temp or intermediate files that are generated during excerpt runs. These may be large files and significantly slow your downloads and increase storage requirements.
+**BEFORE DOWNLOADING BULK SETS OF FILES**: It is highly recommended you delete any large temp or intermediate files that are generated during excerpt runs. These files may significantly slow your downloads and increase storage requirements.
 
-List of files often preferable to delete before using download script:
+List of files suggested to delete before using download script:
 
+1. sampleName.fastq.clipped.fastq.gz
+2. sampleName.fastq.clipped.trimmed.fastq.gz
+3. sampleName.fastq.clipped.trimmed.filtered.fastq.gz
+4. sampleName.fastq.clipped.trimmed.filtered.noCalibrator.fastq.gz
+5. sampleName.fastq.clipped.trimmed.filtered.noUniVecOrRiboRNA.fastq.gz
+6. sampleName.fastq.clipped.trimmed.filtered.tmp2
+7. endogenousAlignments_genomeUnmapped_transcriptome_Unmapped.R1.fastq.gz
 
 
 **cavatica_api_download.py manual**
